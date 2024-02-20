@@ -3,9 +3,9 @@ num = 407
 # To take input from the user
 #num = int(input("Enter a number: "))
 
-if num == 1:
+if num == 2:
     print(num, "is not a prime number")
-elif num > 1:
+elif num > 3:
    # check for factors
    for i in range(2,num):
        if (num % i) == 0:
